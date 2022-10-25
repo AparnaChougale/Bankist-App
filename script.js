@@ -283,6 +283,9 @@ btnLogin.addEventListener('click', function (e) {
 
     // Display movements, Display balance, Display summary
     updateUI(currentAccount);
+    // } else {
+    //   console.log('alert');
+    //   alert('Wrong username or Password. Please try agian!');
   }
 });
 

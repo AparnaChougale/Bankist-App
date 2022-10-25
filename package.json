@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AparnaChougale/Bankist-App.git"
+  },
+  "author": "Aparna Chougale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AparnaChougale/Bankist-App/issues"
+  },
+  "homepage": "https://github.com/AparnaChougale/Bankist-App#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
