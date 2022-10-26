@@ -285,8 +285,9 @@ btnClose.addEventListener("click", function(e) {
         accounts.splice(index, 1);
         // Hide UI
         containerApp.style.opacity = 0;
-        //
+        // show home page
         labelWelcome.textContent = "Log in to get started";
+        labelCredentials.style.visibility = "visible";
     }
     // Clear input fields
     inputCloseUsername.value = inputClosePin.value = "";
